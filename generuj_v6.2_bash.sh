@@ -18,6 +18,8 @@ ls $cesta_soubory_klicu$1 1>/dev/null 2>/dev/null
 if [ "$?" == "0" ]; then
 echo "nazev souboru "$1" v adresari "$cesta_soubory_klicu$1" jiz existuje"
 echo "prepsal by se jeho puvodni obasah, zvolte jiny nazev"
+echo "seznam klicu v adresari "$cesta_soubory_klicu
+ls $cesta_soubory_klicu
 exit 0
 fi
 
