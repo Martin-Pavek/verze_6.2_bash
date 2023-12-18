@@ -33,3 +33,4 @@ eval $cekej
 # kdyz to nejni tak dva soubory za sebou muzou bejt stejny !
 done
 
+
